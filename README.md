@@ -1,4 +1,4 @@
-# angular  -  <a href="https://jmmonjeremy.github.io/angular/" target="_blank">Project Site Link</a>    [Angular CLI](https://github.com/angular/angular-cli)
+# angular  -  <a href="https://jmmonjeremy.github.io/angular/" target="_blank">Project Site Link</a>    [Project Template]([https://github.com/angular/angular-cli](https://jmmonjeremy.github.io/angular/)
 Repository for my BYUI WDD 430 Web Full-Stack Development class
 # ProjectTemplate
 
