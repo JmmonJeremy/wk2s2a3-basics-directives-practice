@@ -1,4 +1,4 @@
-# Angular Binding Practice -  <a href="https://jmmonjeremy.github.io/wk2s2a2-basics-binding-practice/" 
+# Angular Binding Practice -  <a href="https://jmmonjeremy.github.io/wk2s2a2-basics-binding-practice/" >
 Repository for my BYUI WDD 430 Web Full-Stack Development class
 # ProjectTemplate
 
