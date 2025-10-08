@@ -1,4 +1,4 @@
-# Angular Dirctives Practice -  <a href="https://jmmonjeremy.github.io/wk2s2a3-basics-directives-practice/" target="_blank">Wk2 Section 2 Task 3</a>
+# Angular Directives Practice:  <a href="https://jmmonjeremy.github.io/wk2s2a3-basics-directives-practice/" target="_blank">Wk2 Section2 Task3</a>
 Repository for my BYUI WDD 430 Web Full-Stack Development class
 # ProjectTemplate
 
