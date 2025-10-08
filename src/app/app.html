@@ -9,22 +9,12 @@
         <li>Starting at the 5th log item, give all future log items a blue background (via ngStyle) and white color (ngClass)</li>
       </ol>
       <hr>
-      <!--<button class="btn btn-primary" (click)="showSecret = !showSecret">Display Details</button>-->
-      <button class="btn btn-primary" (click)="onToggleDetails()">Display Details</button>
-      <p *ngIf="showSecret">Secret Password = tuna</p>
-      <div
-        *ngFor="let logItem of log"
-        [ngStyle]="{backgroundColor: logItem >= 5 ? 'blue' : 'transparent'}"
-        [ngClass]="{'white-text': logItem >= 5}"
-      >{{ logItem }}</div>
-    </div>
-  </div>
-</div>
-  <hr>
       <label>Username</label>
       <input type=" text" class="form-control" [(ngModel)]="userName">
       <p>{{ userName }}</p>
       <button class="btn btn-primary" [disabled]="!getButtonStatus()" (click)="onResetUser()">Reset User</button>
       <!-- Alternative solution -->
        <!-- <button class="btn btn-primary" [disabled]="userName === ''" (click)="userName = ''">Reset User</button> -->
+    </div>
+  </div>
 </div>
