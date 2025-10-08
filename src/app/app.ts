@@ -7,19 +7,27 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.css'
 })
 export class App {
-  userName = 'JohnDoe';
-  buttonStatus = false;
+  display = true;
+  clickCount = 0;
+  clickLog = [];
 
-  getButtonStatus() {
-    if (this.userName === '') {
-      this.buttonStatus = false;
+  onDisplayToggle() {
+    this.clickCount += 1;
+    this.clickLog.push(this.clickCount);
+    if (this.display === false) {
+      this.display = true;
     } else {
-      this.buttonStatus = true;
+      this.display = false;
     };
-    return this.buttonStatus
+    return this.display;
   }
 
-  onResetUser() {
-    this.userName = '';
+  decideColor(clicks) {
+    if (clicks > 4) {
+      return 'blue';
+    } else {
+      return 'none';
+    }
   }
+
 }

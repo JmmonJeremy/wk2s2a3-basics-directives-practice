@@ -9,12 +9,9 @@
         <li>Starting at the 5th log item, give all future log items a blue background (via ngStyle) and white color (ngClass)</li>
       </ol>
       <hr>
-      <label>Username</label>
-      <input type=" text" class="form-control" [(ngModel)]="userName">
-      <p>{{ userName }}</p>
-      <button class="btn btn-primary" [disabled]="!getButtonStatus()" (click)="onResetUser()">Reset User</button>
-      <!-- Alternative solution -->
-       <!-- <button class="btn btn-primary" [disabled]="userName === ''" (click)="userName = ''">Reset User</button> -->
+      <button class="btn btn-primary" (click)="onDisplayToggle()">Toggle Details</button>
+      <p *ngIf="display">May the force be with you!!!</p>
+      <p *ngFor="let clicks of clickLog" [ngStyle]="{backgroundColor: decideColor(clicks)}" [ngClass]="{lighten: clicks > 4}">{{ clicks }}</p>
     </div>
   </div>
 </div>
