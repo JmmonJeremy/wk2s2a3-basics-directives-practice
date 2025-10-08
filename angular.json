@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "wk2s2a2-basics-binding-practice": {
+    "wk2s2a3-basics-directives-practice": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -69,10 +69,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "wk2s2a2-basics-binding-practice:build:production"
+              "buildTarget": "wk2s2a3-basics-directives-practice:build:production"
             },
             "development": {
-              "buildTarget": "wk2s2a2-basics-binding-practice:build:development"
+              "buildTarget": "wk2s2a3-basics-directives-practice:build:development"
             }
           },
           "defaultConfiguration": "development"
